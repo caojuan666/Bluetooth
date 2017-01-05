@@ -26,7 +26,7 @@ public class SampleGattAttributes {
     public static String HEART_RATE_MEASUREMENT = "00002a37-0000-1000-8000-00805f9b34fb";
     public static String CLIENT_CHARACTERISTIC_CONFIG = "00002902-0000-1000-8000-00805f9b34fb";
     public static String WEIGHT_MEASUREMENT = "0000ffe4-0000-1000-8000-00805f9b34fb";
-
+    public  static  String WEIGHT_MEASUREMENT_NAME = "YUNMAI-SIGNAL-CW";
     static {
         // Sample Services.
         attributes.put("0000180d-0000-1000-8000-00805f9b34fb", "Heart Rate Service");
